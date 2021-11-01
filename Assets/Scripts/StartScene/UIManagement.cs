@@ -20,11 +20,15 @@ public class UIManagement : MonoBehaviour
 
     public void LevelOne(){
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(0);
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 
     public void LevelTwo(){
         Debug.Log("Clicked");
+    }
+
+    public void Exit(){
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1);
     }
 }
 
