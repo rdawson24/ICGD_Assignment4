@@ -8,6 +8,7 @@ TagManager:
   - GeneratedLevel
   - TrimmedGeneratedLevel
   - Border
+  - Trail
   layers:
   - Default
   - TransparentFX

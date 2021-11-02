@@ -6,7 +6,7 @@ public class AudioController : MonoBehaviour
 {
 
     public AudioSource background;
-
+    public AudioSource pacSound;
     public AudioClip introClip;
     public AudioClip gameplayClip;
 
