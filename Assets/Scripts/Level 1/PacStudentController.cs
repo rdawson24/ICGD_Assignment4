@@ -16,7 +16,7 @@ private Animator animator;
     private int input;
     private int currentInput;
     private int lastInput;
-    private int[,] levelMap =
+    public int[,] levelMap {get; private set;} =
         {
             {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
             {2,5,5,5,5,5,5,5,5,5,5,5,5,4,4,5,5,5,5,5,5,5,5,5,5,5,5,2},
@@ -48,8 +48,8 @@ private Animator animator;
             {2,5,5,5,5,5,5,5,5,5,5,5,5,4,4,5,5,5,5,5,5,5,5,5,5,5,5,2},
             {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
         };
-    private int playerPosx;
-    private int playerPosy;
+    public int playerPosx {get; private set;}
+    public int playerPosy {get; private set;}
     private ParticleSystem trail;
     // Start is called before the first frame update
     void Start()
@@ -63,6 +63,7 @@ private Animator animator;
         playerPosx = 1;
         playerPosy = 1;
         trail = GameObject.FindWithTag("Trail").GetComponent<ParticleSystem>();
+        trail.Stop();
 
         rightRoutine = null;
         leftRoutine = null;
@@ -96,11 +97,9 @@ private Animator animator;
         if(upRoutine == null && downRoutine == null && leftRoutine == null && rightRoutine == null){
             if(CheckValidLastInput(lastInput)){
                 currentInput = lastInput;
-                trail.Play();
                 MovePac();
             }
             else if(CheckValidCurrentInput(currentInput)){
-                trail.Play();
                 MovePac();
             }
             else{
@@ -116,15 +115,19 @@ private Animator animator;
 
     public void MovePac(){
         if(currentInput == 1){
+            trail.Play();
             upRoutine = StartCoroutine(moveUp());
         }
         else if(currentInput == 2){
+            trail.Play();
             downRoutine = StartCoroutine(moveDown());
         }
         else if(currentInput == 3){
+            trail.Play();
             leftRoutine = StartCoroutine(moveLeft());
         }
         else if(currentInput == 4){
+            trail.Play();
             rightRoutine = StartCoroutine(moveRight());
         }
     }

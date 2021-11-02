@@ -9,6 +9,7 @@ TagManager:
   - TrimmedGeneratedLevel
   - Border
   - Trail
+  - Cherry
   layers:
   - Default
   - TransparentFX
