@@ -6991,9 +6991,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghost1: {fileID: 1030478873}
+  ghost1Anim: {fileID: 0}
   ghost2: {fileID: 2091304718}
+  ghost2Anim: {fileID: 0}
   ghost3: {fileID: 1074342378}
+  ghost3Anim: {fileID: 0}
   ghost4: {fileID: 1365514320}
+  ghost4Anim: {fileID: 0}
 --- !u!1 &66628247
 GameObject:
   m_ObjectHideFlags: 0
@@ -25836,11 +25840,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38712,11 +38716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 7433469952081618280, guid: 30ca3f98c8b51214a90299c166624e6b, type: 3}
       propertyPath: m_LocalPosition.z

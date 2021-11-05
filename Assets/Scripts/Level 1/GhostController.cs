@@ -57,16 +57,16 @@ public class GhostController : MonoBehaviour
     void Update()
     {
         if(ghost1Anim.GetBool("Dead")){
-            ghost1Anim.speed = 0.5f;
+            ghost1Anim.speed = 0.25f;
         }
         if(ghost2Anim.GetBool("Dead")){
-            ghost2Anim.speed = 0.5f;
+            ghost2Anim.speed = 0.25f;
         }
         if(ghost3Anim.GetBool("Dead")){
-            ghost3Anim.speed = 0.5f;
+            ghost3Anim.speed = 0.25f;
         }
         if(ghost4Anim.GetBool("Dead")){
-            ghost4Anim.speed = 0.5f;
+            ghost4Anim.speed = 0.25f;
         }
         if(!ghost1Anim.GetBool("Dead")){
             ghost1Anim.speed = 1.0f;
