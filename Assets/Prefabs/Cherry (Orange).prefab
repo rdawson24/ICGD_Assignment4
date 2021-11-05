@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7506527282469127746}
   - component: {fileID: 3274349452161845255}
+  - component: {fileID: 3645060301088547543}
   m_Layer: 0
   m_Name: Cherry (Orange)
   m_TagString: Cherry
@@ -82,3 +83,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &3645060301088547543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4542822451805210548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3400154, y: 5.407712, z: 0.20000002}
+  m_Center: {x: 0.11000633, y: 0.008462588, z: 0}
