@@ -7,6 +7,26 @@ TagManager:
   - Audio
   - GeneratedLevel
   - TrimmedGeneratedLevel
+  - Border
+  - Trail
+  - Cherry
+  - Wall
+  - CollisionParticle
+  - LeftTeleporter
+  - RightTeleporter
+  - Pellet
+  - PelletRenderer
+  - Score
+  - PowerPill
+  - Ghost
+  - GhostOne
+  - GhostTwo
+  - GhostThree
+  - GhostFour
+  - LifeOne
+  - LifeTwo
+  - LifeThree
+  - DeathParticles
   layers:
   - Default
   - TransparentFX

@@ -388,7 +388,7 @@ public class LevelGenerator : MonoBehaviour
         }
         GameObject trimmedGenerated = GameObject.FindWithTag("TrimmedGeneratedLevel");;
         Instantiate(trimmedGenerated, new Vector3(trimmedGenerated.transform.position.x, trimmedGenerated.transform.position.y -164.66f, trimmedGenerated.transform.position.z + 912.24f), Quaternion.Euler(0.0f, -180.0f, -180.0f));
-        Instantiate(trimmedGenerated, new Vector3(trimmedGenerated.transform.position.x + 41.41f, trimmedGenerated.transform.position.y - 164.66f, trimmedGenerated.transform.position.z), Quaternion.Euler(0.0f, 0.0f, -180.0f));
+        Instantiate(trimmedGenerated, new Vector3(trimmedGenerated.transform.position.x + 41.4816f, trimmedGenerated.transform.position.y - 164.66f, trimmedGenerated.transform.position.z), Quaternion.Euler(0.0f, 0.0f, -180.0f));
         Destroy(trimmedGenerated);
     }
 
